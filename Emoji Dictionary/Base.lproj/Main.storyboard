@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -35,6 +36,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DJV-qQ-oSD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="378" y="118"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="u0R-pZ-zJZ">
+            <objects>
+                <viewController id="x8h-9n-eSc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k8x-i3-VER">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🚀" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pu1-uW-8zA">
+                                <rect key="frame" x="62" y="40" width="250" height="274.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="230"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rocket Ship" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AwK-gX-vuN">
+                                <rect key="frame" x="10" y="431" width="355" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pu1-uW-8zA" firstAttribute="top" secondItem="VRc-db-SgP" secondAttribute="top" constant="20" id="DPI-Ba-JGS"/>
+                            <constraint firstItem="VRc-db-SgP" firstAttribute="bottom" secondItem="AwK-gX-vuN" secondAttribute="bottom" constant="200" id="QWD-YN-Qm5"/>
+                            <constraint firstItem="VRc-db-SgP" firstAttribute="trailing" secondItem="AwK-gX-vuN" secondAttribute="trailing" constant="10" id="ZEX-Mi-rrH"/>
+                            <constraint firstItem="AwK-gX-vuN" firstAttribute="leading" secondItem="VRc-db-SgP" secondAttribute="leading" constant="10" id="arc-Ke-Jne"/>
+                            <constraint firstItem="VRc-db-SgP" firstAttribute="bottom" secondItem="AwK-gX-vuN" secondAttribute="bottom" constant="200" id="b4r-pw-GDJ"/>
+                            <constraint firstItem="pu1-uW-8zA" firstAttribute="centerX" secondItem="k8x-i3-VER" secondAttribute="centerX" id="fu0-pm-VOd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VRc-db-SgP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fro-UQ-QpV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1207.2" y="117.39130434782609"/>
         </scene>
     </scenes>
 </document>
