@@ -12,6 +12,7 @@
 		830E24201F3A40E400C1977C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830E241F1F3A40E400C1977C /* Assets.xcassets */; };
 		830E24231F3A40E400C1977C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830E24211F3A40E400C1977C /* LaunchScreen.storyboard */; };
 		830E242B1F3B65EC00C1977C /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830E242A1F3B65EC00C1977C /* EmojiTableViewController.swift */; };
+		830E242D1F3B9A7900C1977C /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830E242C1F3B9A7900C1977C /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		830E24221F3A40E400C1977C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		830E24241F3A40E400C1977C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		830E242A1F3B65EC00C1977C /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
+		830E242C1F3B9A7900C1977C /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				830E24181F3A40E400C1977C /* AppDelegate.swift */,
+				830E242C1F3B9A7900C1977C /* DefinitionViewController.swift */,
 				830E242A1F3B65EC00C1977C /* EmojiTableViewController.swift */,
 				830E241C1F3A40E400C1977C /* Main.storyboard */,
 				830E241F1F3A40E400C1977C /* Assets.xcassets */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				830E242B1F3B65EC00C1977C /* EmojiTableViewController.swift in Sources */,
+				830E242D1F3B9A7900C1977C /* DefinitionViewController.swift in Sources */,
 				830E24191F3A40E400C1977C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
