@@ -59,23 +59,41 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rocket Ship" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AwK-gX-vuN">
                                 <rect key="frame" x="10" y="431" width="355" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birth Year: 2013" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fea-t4-GQi">
+                                <rect key="frame" x="126" y="495" width="122" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Category: Transportation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uF0-sN-gcA">
+                                <rect key="frame" x="92" y="524" width="191.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="fea-t4-GQi" firstAttribute="centerX" secondItem="k8x-i3-VER" secondAttribute="centerX" id="7lw-BF-2S1"/>
                             <constraint firstItem="pu1-uW-8zA" firstAttribute="top" secondItem="VRc-db-SgP" secondAttribute="top" constant="20" id="DPI-Ba-JGS"/>
                             <constraint firstItem="VRc-db-SgP" firstAttribute="bottom" secondItem="AwK-gX-vuN" secondAttribute="bottom" constant="200" id="QWD-YN-Qm5"/>
+                            <constraint firstItem="uF0-sN-gcA" firstAttribute="centerX" secondItem="k8x-i3-VER" secondAttribute="centerX" id="WWb-NL-a91"/>
                             <constraint firstItem="VRc-db-SgP" firstAttribute="trailing" secondItem="AwK-gX-vuN" secondAttribute="trailing" constant="10" id="ZEX-Mi-rrH"/>
                             <constraint firstItem="AwK-gX-vuN" firstAttribute="leading" secondItem="VRc-db-SgP" secondAttribute="leading" constant="10" id="arc-Ke-Jne"/>
                             <constraint firstItem="VRc-db-SgP" firstAttribute="bottom" secondItem="AwK-gX-vuN" secondAttribute="bottom" constant="200" id="b4r-pw-GDJ"/>
                             <constraint firstItem="pu1-uW-8zA" firstAttribute="centerX" secondItem="k8x-i3-VER" secondAttribute="centerX" id="fu0-pm-VOd"/>
+                            <constraint firstItem="fea-t4-GQi" firstAttribute="top" secondItem="AwK-gX-vuN" secondAttribute="bottom" constant="28" id="hY2-aF-Phv"/>
+                            <constraint firstItem="uF0-sN-gcA" firstAttribute="top" secondItem="fea-t4-GQi" secondAttribute="bottom" constant="16" id="zo3-el-NN1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VRc-db-SgP"/>
                     </view>
                     <connections>
+                        <outlet property="birthLabel" destination="fea-t4-GQi" id="MPd-GV-8BK"/>
+                        <outlet property="categoryLabel" destination="uF0-sN-gcA" id="LLZ-Uv-2ab"/>
                         <outlet property="emojiDefinitionLabel" destination="AwK-gX-vuN" id="DHH-cQ-Ea0"/>
                         <outlet property="emojiLabel" destination="pu1-uW-8zA" id="BJ6-2m-ApR"/>
                     </connections>
